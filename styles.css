@@ -2,11 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Courier;
 }
 
 .page {
   display: flex;
   flex-wrap: wrap;
+  height: 1200px;
 }
 
 .flexible {
@@ -14,14 +16,38 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100px;
   border: 1px solid white;
+  text-align: center;
 }
 
 .header {
+  position: fixed;
   background: blue;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
+.header h1 {
+  font-size: 2em;
+  font-weight: ;
+}
+
+.menu {
+  background-color: red;
+  font-size: 1.2em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.menu li {
+  display: inline;
+  padding: 20px;
+  font-style: italic;
+}
+
+.menu a {
+  color: black;
+}
 .content {
   background-color: green;
 }
