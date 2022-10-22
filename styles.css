@@ -24,7 +24,7 @@
   background: blue;
   flex-wrap: wrap;
   justify-content: space-around;
-  visibility: visible;
+  visibility: hidden;
 }
 
 .header {
