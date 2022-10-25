@@ -24,6 +24,7 @@
 a {
   transition: font-size 600ms;
   transition-timing-function: ease-out;
+  color: #212227;
 }
 
 a:hover {
@@ -85,7 +86,7 @@ a:visited {
 .content {
   background-color: #48A9A6;
   font-size: 4em;
-  height: 1000px;
+  min-height: 120vh;
 }
 
 .footer {
