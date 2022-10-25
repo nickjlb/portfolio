@@ -10,6 +10,7 @@
   display: flex;
   flex-wrap: wrap;
   word-break:break-all;
+  background-color: green;
 }
 
 .flexible {
@@ -34,6 +35,12 @@
   justify-content: space-around;
   border-bottom: 2px solid yellow;
 }
+
+.header a {
+  text-decoration: none;
+  color: black;
+}
+
 .header-spacer h1,
 .header h1 {
   font-size: 2em;
@@ -71,5 +78,14 @@
 .footer {
   background-color: turquoise;
   font-size: 4em;
-  height: 400px;
+  display: block;
+}
+
+.footer h2 {
+  margin-top: 20px;
+  font-size: 36px;
+}
+
+.footer p {
+  font-size: 24px;
 }
