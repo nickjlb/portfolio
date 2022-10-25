@@ -40,14 +40,15 @@ a:visited {
   flex-wrap: wrap;
   justify-content: space-around;
   visibility: hidden;
+  border-bottom: 2px solid #E4DFDA;
 }
-.header-spacer,
+
 .header {
   position: fixed;
   background: #4281A4;
   flex-wrap: wrap;
   justify-content: space-around;
-  border-bottom: 2px solid #E4DFDA;
+
 }
 
 .header a {
@@ -86,7 +87,7 @@ a:visited {
 .content {
   background-color: #48A9A6;
   font-size: 4em;
-  min-height: 120vh;
+  min-height: 100vh;
 }
 
 .footer {
