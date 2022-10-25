@@ -21,6 +21,15 @@
   text-align: center;
 }
 
+a {
+  transition: font-size 600ms;
+  transition-timing-function: ease-out;
+}
+
+a:hover {
+  font-size: 1.15em;
+}
+
 .header-spacer {
   background: blue;
   flex-wrap: wrap;
@@ -66,7 +75,7 @@
 }
 
 .menu a:hover {
-   text-decoration: underline;
+  text-decoration: underline;
 }
 
 .content {
