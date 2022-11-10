@@ -94,24 +94,50 @@ a:visited {
 }
 
 .content {
-  margin: 0 30px;
+  margin: 30px 30px;
   font-size: 4.5vh;
   word-break: normal;
   max-width: 1000px;
   text-align: left;
 }
-
-.content h2 {
-  min-width: 100%;
-  font-size: ;
-}
-
 .content li {
-  font-size: 20px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 2.15vh;
 }
+.content ul {
+  padding-left: 21px;
+}
+
+.columns {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.columns ul {
+  padding-right: 20px;
+}
+
+br {
+  display: block;
+  content: "";
+  margin-top: 20px;
+}
+
 hr {
   border-color: black;
   border-width: 1px;
+}
+
+.job-title {
+  font-style: italic;
+  font-size: 2.6vh;
+}
+
+.dates {
+  font-size: 2.15vh;
+  font-weight: 300;
 }
 
 .footer {
