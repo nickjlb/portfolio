@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto Flex', sans-serif;
+  font-family: 'Roboto Light', sans-serif;
 }
 
 .flexible {
@@ -94,13 +94,24 @@ a:visited {
 }
 
 .content {
-  font-size: 4em;
+  margin: 0 30px;
+  font-size: 4.5vh;
   word-break: normal;
   max-width: 1000px;
+  text-align: left;
 }
 
-.content h2, p {
+.content h2 {
   min-width: 100%;
+  font-size: ;
+}
+
+.content li {
+  font-size: 20px;
+}
+hr {
+  border-color: black;
+  border-width: 1px;
 }
 
 .footer {
