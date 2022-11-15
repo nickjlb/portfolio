@@ -54,7 +54,7 @@ a:visited {
   background: #4281A4;
   flex-wrap: wrap;
   justify-content: space-around;
-  border-bottom: 2px solid #E4DFDA;
+  border-bottom: 0.3vh solid #E4DFDA;
   right: 0;
   top: 0;
 }
@@ -66,12 +66,12 @@ a:visited {
 
 .header-spacer h1,
 .header h1 {
-  font-size: 2em;
+  font-size: 4vh;
   margin: 10px 0 10px 0;
 }
 
 .menu {
-  font-size: 1.2em;
+  font-size: 2.15vh;
   padding-top: 12px;
   padding-bottom: 12px;
 }
@@ -97,6 +97,7 @@ a:visited {
   margin: 30px 30px;
   font-size: 4.5vh;
   word-break: normal;
+  width: 1200px;
   max-width: 1200px;
   min-width: 50vw;
   text-align: left;
@@ -114,7 +115,6 @@ a:visited {
 
 .block {
   font-size: 3.1vh;
-
 }
 
 .block a:hover {
@@ -136,6 +136,17 @@ a:visited {
 
 .columns ul {
   padding-right: 20px;
+}
+
+img {
+  border-radius: 50%;
+  border: 3px solid #E4DFDA;
+  max-width: 25vh;
+  margin: 2.5vh 0;
+}
+
+.profile {
+  text-align: center;
 }
 
 br {
@@ -163,7 +174,7 @@ hr {
   background-color: #212227;
   font-size: 4em;
   display: block;
-  border-top: 2px solid #E4DFDA;
+  border-top: 0.3vh solid #E4DFDA;
   padding: 20px;
   position: fixed;
   left: 0;
