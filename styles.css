@@ -97,8 +97,11 @@ a:visited {
   margin: 30px 30px;
   font-size: 4.5vh;
   word-break: normal;
-  max-width: 85vw;
+  max-width: 1200px;
+  min-width: 50vw;
   text-align: left;
+  transition: font-size 1000ms;
+  transition-timing-function: ease-in-out;
 }
 .content li {
   padding-top: 2px;
