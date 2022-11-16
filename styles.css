@@ -5,6 +5,12 @@
   font-family: 'Roboto Light', sans-serif;
 }
 
+@font-face {
+  font-display: swap;
+  font-family: "Roboto Light";
+  src:url(./Roboto-Light.ttf);
+}
+
 .flexible {
   width: 100%;
   display: flex;
@@ -101,8 +107,6 @@ a:visited {
   max-width: 1200px;
   min-width: 50vw;
   text-align: left;
-  transition: font-size 1000ms;
-  transition-timing-function: ease-in-out;
 }
 .content li {
   padding-top: 2px;
@@ -138,7 +142,43 @@ a:visited {
   padding-right: 20px;
 }
 
-img {
+.post {
+  border: 0.4vw solid #E4DFDA;
+  border-radius: 2vw;
+  background-color: #212227;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.post-photo {
+  border-radius: 50%;
+  max-width: 15vw;
+  margin: 2.5vw;
+  border: 0.3vw solid #F75590;
+}
+
+.post-text {
+  justify-content: space-between;
+}
+
+.post a {
+  color: #E4DFDA;
+  text-decoration: none;
+}
+
+.post h4 {
+  font-size: 5vw;
+}
+
+.post p {
+  color: #F75590;
+  font-size: 5vw;
+}
+
+.profile-photo {
   border-radius: 50%;
   border: 3px solid #E4DFDA;
   max-width: 25vh;
@@ -156,8 +196,8 @@ br {
 }
 
 hr {
-  border-color: black;
-  border-width: 1px;
+  border-color: #212227;
+  border-width: 0.1vh;
 }
 
 .job-title {
