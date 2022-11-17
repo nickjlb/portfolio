@@ -160,7 +160,7 @@ a:visited {
 .post-photo {
   border-radius: 50%;
   max-width: 15vw;
-  margin: 2.5vw;
+  margin: 2vw;
   border: 0.3vw solid #F75590;
 }
 
@@ -173,13 +173,17 @@ a:visited {
   text-decoration: none;
 }
 
+.post a:hover {
+  font-size: 1.02em;
+}
+
 .post h4 {
-  font-size: 5vw;
+  font-size: 4vw;
 }
 
 .post p {
   color: #F75590;
-  font-size: 4vw;
+  font-size: 3vw;
 }
 
 .profile-photo {
