@@ -1,13 +1,13 @@
 @font-face {
   font-display: swap;
   font-family: "Roboto Light";
-  src:url(./Roboto-Light.ttf);
+  src:url(./fonts/Roboto-Light.ttf);
 }
 
 @font-face {
   font-display: swap;
   font-family: "Roboto Serif Light";
-  src:url(./RobotoSerif-Light.ttf);
+  src:url(./fonts/RobotoSerif-Light.ttf);
 }
 
 * {
